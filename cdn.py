@@ -37,7 +37,7 @@ if __name__ ==  '__main__':
 			append_write = 'w' # make a new file if not
 
 		markdown = open(filename,append_write)
-		markdown.write("#" + folder  + "\n")
+		markdown.write("# " + folder  + " list of files and folders\n")
 		for file in glob.glob(pathname, recursive=True):
 			print(file)
 		
