@@ -46,7 +46,7 @@ if __name__ ==  '__main__':
 				print('index.md ignored in ' + folder)
 		markdown.write("\n") # readding an other space
 		#adding backlink
-		markdown.write("[back](../)")
+		markdown.write("[back](https://cdn.wanalike.fr/)")
 		markdown.close()
 	else:
 		error_exit()

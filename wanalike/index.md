@@ -330,4 +330,4 @@
 
 [wanalike/css/shortcodes/tables.css](./css/shortcodes/tables.css).
 
-[back](../)
+[back](https://cdn.wanalike.fr/)

@@ -8,4 +8,4 @@
 
 [blog-SFM/bullet.png](./bullet.png).
 
-[back](../)
+[back](https://cdn.wanalike.fr/)
