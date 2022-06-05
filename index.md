@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 ---
 
@@ -67,13 +67,8 @@ end
 *   Item foo
 *   Item bar
 *   Item baz
-*   Item zip
+*   Item zip[Link to another page](./another-page.html).
 
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
 1.  Item four
 
 ### And a nested list:
@@ -105,8 +100,7 @@ end
 
 <dl>
 <dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
+
 <dd>1952</dd>
 <dt>Birthplace</dt>
 <dd>Japan</dd>
@@ -120,4 +114,14 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
+
+# CDN Wanalike EntreChat ShambhalaFM
+
+Ajout des dossiers et fichiers:
+[wanalike](./wanalike)
+[blog-SFM](./blog-SFM)
+
+[Link to another page](./another-page.html).
+
+
