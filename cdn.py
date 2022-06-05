@@ -31,15 +31,18 @@ if __name__ ==  '__main__':
 		else:
 			append_write = 'w' # make a new file if not
 		markdown = open(filename,append_write)
-		markdown.write("# " + folder  + " list of files and folders\n")
+		# here the space is before #
+		markdown.write("# " + folder  + " list of files and folders")
+		markdown.write("\n") # readding an other space
 		for file in glob.glob(pathname, recursive=True):
 			print(file)
 			#remove folder/ from folder/path/file
 			file_replaced = re.sub(folder, '', file)
-			markdown.write("\n") # readding one space
+			markdown.write("\n") # readding an other space
 			markdown.write("[" + file + "](." + file_replaced + ").\n")
+		markdown.write("\n") # readding an other space
 		#adding backlink
-		markdown.write("[back](./)\n")
+		markdown.write("[back](./)")
 		markdown.close()
 	else:
 		error_exit()
