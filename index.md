@@ -122,6 +122,9 @@ Ajout des dossiers et fichiers:
 [wanalike](./wanalike)
 [blog-SFM](./blog-SFM)
 
+Usage:
+_python cdn.py folder_
+
 [Lien vers une autre page](./another-page.html).
 
 

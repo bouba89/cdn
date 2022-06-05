@@ -1,4 +1,4 @@
-#blog-SFM
+# blog-SFM list of files and folders
 
 [blog-SFM/bkg.png](./bkg.png).
 
