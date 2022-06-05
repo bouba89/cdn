@@ -36,7 +36,7 @@ if __name__ ==  '__main__':
 			print(file)
 			#remove folder/ from folder/path/file
 			file_replaced = re.sub(folder, '', file)
-			#markdown.write("\n") # remove one space
+			markdown.write("\n") # readding one space
 			markdown.write("[" + file + "](." + file_replaced + ").\n")
 		#adding backlink
 		markdown.write("[back](./)\n")
