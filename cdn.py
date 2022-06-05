@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import sys,os,glob
+import sys,os,re,glob
 #print(os.listdir(sys.argv[1]))
 
 def error_exit ():
@@ -32,15 +32,20 @@ if __name__ ==  '__main__':
 			print(file)
 			#export to html like file but it's a markdown  .md for github
 			filename =  folder + '/index.md'	
+
 			if os.path.exists(filename):
 				append_write = 'a' # append if already exists
 			else:
 				append_write = 'w' # make a new file if not
 
+			#remove folder/ from folder/path/file
+			file_replaced = re.sub(folder, '', file)
+
 			markdown = open(filename,append_write)
 			#[Link to another page](./another-page.html).
-			markdown.write("[" + file + "](./" + file + "). \n")
+			markdown.write("[" + file + "](." + file_replaced + "). \n")
 			markdown.close()
+
 
 	else:
 		error_exit()
