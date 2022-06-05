@@ -6,8 +6,6 @@
 
 [blog-SFM/zsh_first_usage.png](./zsh_first_usage.png).
 
-[blog-SFM/index.md](./index.md).
-
 [blog-SFM/bullet.png](./bullet.png).
 
-[back](./)
+[back](../)

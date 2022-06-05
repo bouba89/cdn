@@ -4,8 +4,6 @@
 
 [wanalike/style.min.css](./style.min.css).
 
-[wanalike/index.md](./index.md).
-
 [wanalike/fonts/Material-Design-Iconic-Font.ttf](./fonts/Material-Design-Iconic-Font.ttf).
 
 [wanalike/fonts/Material-Design-Iconic-Font.woff2](./fonts/Material-Design-Iconic-Font.woff2).
@@ -332,4 +330,4 @@
 
 [wanalike/css/shortcodes/tables.css](./css/shortcodes/tables.css).
 
-[back](./)
+[back](../)

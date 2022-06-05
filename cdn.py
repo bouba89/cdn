@@ -36,13 +36,17 @@ if __name__ ==  '__main__':
 		markdown.write("\n") # readding an other space
 		for file in glob.glob(pathname, recursive=True):
 			print(file)
-			#remove folder/ from folder/path/file
+			# remove folder/ from folder/path/file
 			file_replaced = re.sub(folder, '', file)
-			markdown.write("\n") # readding an other space
-			markdown.write("[" + file + "](." + file_replaced + ").\n")
+			# ignore if index.md is added in list of links  
+			if file_replaced != '/index.md':
+				markdown.write("\n") # readding an other space
+				markdown.write("[" + file + "](." + file_replaced + ").\n")
+			else:
+				print('index.md ignored in ' + folder)
 		markdown.write("\n") # readding an other space
 		#adding backlink
-		markdown.write("[back](./)")
+		markdown.write("[back](../)")
 		markdown.close()
 	else:
 		error_exit()
