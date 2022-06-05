@@ -122,6 +122,6 @@ Ajout des dossiers et fichiers:
 [wanalike](./wanalike)
 [blog-SFM](./blog-SFM)
 
-[Link to another page](./another-page.html).
+[Lien vers une autre page](./another-page.html).
 
 

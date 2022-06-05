@@ -28,23 +28,28 @@ if __name__ ==  '__main__':
 		print('\n glob list files and folder recursively \n')
 		directory = "./"
 		pathname = folder + "/**/*.*"
+		#export to html like file but it's a markdown  .md for github
+		filename =  folder + '/index.md'	
+
+		if os.path.exists(filename):
+			append_write = 'a' # append if already exists
+		else:
+			append_write = 'w' # make a new file if not
+
+		markdown = open(filename,append_write)
+		markdown.write("#" + folder  + "\n")
 		for file in glob.glob(pathname, recursive=True):
 			print(file)
-			#export to html like file but it's a markdown  .md for github
-			filename =  folder + '/index.md'	
-
-			if os.path.exists(filename):
-				append_write = 'a' # append if already exists
-			else:
-				append_write = 'w' # make a new file if not
-
+		
 			#remove folder/ from folder/path/file
 			file_replaced = re.sub(folder, '', file)
 
-			markdown = open(filename,append_write)
+			
 			#[Link to another page](./another-page.html).
-			markdown.write("[" + file + "](." + file_replaced + "). \n")
-			markdown.close()
+			markdown.write("\n")
+			markdown.write("[" + file + "](." + file_replaced + ").\n")
+			
+		markdown.close()
 
 
 	else:
