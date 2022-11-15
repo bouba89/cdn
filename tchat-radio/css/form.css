@@ -1,0 +1,180 @@
+#connectForm {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+#connectForm h2 {
+	text-align: center;
+	padding: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+#connectForm input, #connectForm div, #connectForm label {
+	float: left;
+}
+#connectForm input, #connectForm label {
+    height: 34px;
+}
+#connectForm input#channels {
+    height: 20px;
+}
+#connectForm .margin-bottom-sm {
+    margin-bottom: 0.6em;
+}
+#connectForm .sexe-option input {
+	margin: 0 0.3em 0 1em;
+	width: 1.5em;
+	height: 1.5em;
+}
+#connectForm .nick label {
+	font-size: 1.7em;
+	padding-top: 0.2em;
+	padding-right: 0.7em;
+}
+#connectForm .nick input {
+	height: 2em;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#connectForm label {
+	font-size: 1.7em;
+	width: 4.7em;
+}
+#connectForm .sexe-option label {
+	font-size: 1em;
+	width: 4em;
+	margin-bottom: 0;
+    height: 20px;
+}
+#connectForm div.sexe-option {
+	margin: 0;
+}
+#connectForm div.sexe-option .sexeF {
+	color: #ff00ff;
+}
+#connectForm div.sexe-option .sexeM {
+	color: #208BFC;
+}
+#connectForm div.sexe-option .sexeU {
+	color: #999;
+}
+#connectForm .clearfix, #connectChat #login {
+	float: none;
+}
+#connectChat #login button {
+	width: 50%;
+	margin: auto;
+}
+#connectForm .age {
+	width: 250px;
+}
+#connectForm .sexe {
+    width: 360px;
+    float: left;
+}
+#connectForm .age-sexe, #connectForm .ville, #connectForm .channels {
+	display: none;
+    width: 100%;
+}
+#connectForm .age-text {
+	margin-top: 0.5em;
+    height: 1em;
+}
+#connectForm #channels {
+	min-width: 20px;
+	max-width: 300px;
+	border:none;
+	margin: 0 0 0 2px;
+	padding: 2px;
+	outline: none;
+}
+
+#connectForm .channels span.channel {
+    background-color: #337ab7;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 2px -1px;
+    padding: 0px 7px 1px 7px;
+    float: left;
+}
+#connectForm .channels span.channel:after {
+    color: #aaa;
+    content: "x";
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 5px;
+    vertical-align: text-top;
+    line-height: 1.2;
+}
+#connectForm .channels .add .suggest {
+    background-color: #286098;
+    border: 2px solid #286098;
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+    font-size: 13px;
+    max-height: 250px;
+    min-width: 185px;
+    overflow: auto;
+    padding: 5px;
+    position: absolute;
+    z-index: 10000;
+}
+#connectForm .channels .form-control {
+	height: auto;
+	line-height: 20px;
+}
+#connectForm .channels .add input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: -moz-use-text-color -moz-use-text-color #ddd;
+    border-image: none;
+    border-style: none none dotted;
+    border-width: 0 0 1px;
+    color: #777;
+    cursor: text;
+    font: 14px Arial,Helvetica,sans-serif;
+    margin: 0;
+    max-width: 260px;
+    min-width: 20px;
+    padding: 0;
+    width: 20px;
+}
+#connectForm .channels .add .suggest .selected {
+    display: block;
+}
+#connectForm .channels .add .suggest li {
+    border-radius: 3px;
+    display: none;
+    padding: 3px 5px;
+}
+#connectForm .channels .add .suggest li.hover, #connectForm .channels .add .suggest li:hover {
+    background-color: #999;
+    color: #fff;
+    cursor: pointer;
+}
+#connectForm .channels span.add div.placeholder {
+	color: #999;
+	margin-left: 5px;
+}
+#connectForm #age {
+	border-radius: 0 4px 4px 0;
+}
+
+i.fa-slack {
+    -ms-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
+}
