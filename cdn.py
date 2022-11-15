@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import sys,os,re,glob
+import sys,os,re,glob,time
 def error_exit ():
 	print('Error: an argument (Folder) is require for running script !')
 	print('type ./' + str(sys.argv[0]) + ' <arg>' )
@@ -9,14 +9,15 @@ if __name__ ==  '__main__':
 	''' DEBUG
 	'''
 	'''
-	print("Script name  : ", sys.argv[0])
-	print("How many arguments: ", len(sys.argv))
-	print("List of arguments: " , str(sys.argv))
 	'''
 	''' END DEBUG
 	'''
+	print("Script name  : ", sys.argv[0])
+	print("How many arguments: ", len(sys.argv))
+	print("List of arguments: " , str(sys.argv))
 	if len(sys.argv) > 1 and len(sys.argv) < 3:
 		folder = sys.argv[1]
+		time.sleep(0.5)
 		print("\nList of files and folders in " + folder + ':\n')
 		print(os.listdir(folder))
 		# search all files inside a specific folder
