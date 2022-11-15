@@ -90,6 +90,10 @@
 
 [wanalike/img/slider/layer4.png](./img/slider/layer4.png).
 
+[wanalike/img/dev/chat.jpg](./img/dev/chat.jpg).
+
+[wanalike/img/dev/chat-room-wana.webp](./img/dev/chat-room-wana.webp).
+
 [wanalike/img/background/bg-5.jpg](./img/background/bg-5.jpg).
 
 [wanalike/img/background/bg-2.jpg](./img/background/bg-2.jpg).
@@ -163,10 +167,6 @@
 [wanalike/img/team/4.jpg](./img/team/4.jpg).
 
 [wanalike/img/brand-logo/1.png](./img/brand-logo/1.png).
-
-[wanalike/img/devwanalike/chat.jpg](./img/dev/chat.jpg).
-
-[wanalike/img/devwanalike/chat-room-wana.webp](./img/dev/chat-room-wana.webp).
 
 [wanalike/js/jquery.easing.1.3.js](./js/jquery.easing.1.3.js).
 
